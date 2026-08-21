@@ -1,11 +1,13 @@
 module github.com/damoon/bucket-backup
 
-go 1.16
+go 1.22
 
 require (
 	github.com/aws/aws-sdk-go v1.38.67
-	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/urfave/cli/v2 v2.3.0
+	github.com/urfave/cli/v3 v3.11.0
+)
+
+require (
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
